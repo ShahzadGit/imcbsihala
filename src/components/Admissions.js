@@ -1,7 +1,8 @@
 import React from 'react'
 import './admissions.css'
 import Table from 'react-bootstrap/Table';
-import admForm from './../pdf/Admission-Form.pdf';
+// import admForm from './../pdf/Admission-Form.pdf';
+import admForm from './../pdf/AdmissionForm2022.pdf';
 
 export default function Admissions() {
     return (
