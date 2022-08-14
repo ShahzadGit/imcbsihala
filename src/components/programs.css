@@ -1,0 +1,22 @@
+
+.two {
+    padding: 20px;
+    width: 100%;   
+}
+.two h5{
+    text-align: center;
+}
+
+.three {
+    background-color: darkgreen;
+    opacity: 0.8;
+    padding: 20px;
+    /* float: left; */
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.three h5{
+    text-align: center;
+}

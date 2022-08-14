@@ -1,0 +1,60 @@
+.one {
+    background-color: darkgreen;
+    opacity: 0.8;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    /* float: left; */
+    width: 50%;
+    /* The width is 20%, by default */
+    color: white;
+    /* bottom: 0;  */
+    margin-top: 5px;
+}
+
+.two {
+    /* background-color: darkgreen; */
+    /* opacity: 0.8; */
+    padding: 20px;
+    /* float: left; */
+    width: 80%;
+    /* The width is 20%, by default */
+    /* color: white; */
+}
+
+.three {
+    background-color: darkgreen;
+    opacity: 0.8;
+    padding: 20px;
+    /* float: left; */
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.threeTable tr, td, thead{
+    color: white;
+}
+
+.four {
+    padding: 20px;
+    width: 80%;
+}
+
+.five {
+    background-color: darkgreen;
+    opacity: 0.8;
+    padding: 20px;
+    /* float: left; */
+    width: 100%;
+    /* text-align: center; */
+    color: white;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .left, .middle, .right {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

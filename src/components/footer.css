@@ -1,0 +1,63 @@
+.left {
+    background-color: darkgreen;
+    opacity: 0.8;
+    padding: 20px;
+    float: left;
+    width: 34%; /* The width is 20%, by default */
+    color: white;
+  }
+
+  .left a{
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+  }
+  
+  .middle {
+    background-color: #f1f1f1;
+    padding: 20px;
+    float: left;
+    width: 32%; /* The width is 60%, by default */
+  }
+  
+  .middle a{
+    text-decoration: none;
+    line-height: 2;
+  }
+
+  .right {
+    background-color: darkgreen;
+    opacity: 0.8;
+    padding: 20px;
+    float: left;
+    width: 34%; /* The width is 20%, by default */
+    color: white;
+    text-align: center;
+  }
+  
+  /* Use a media query to add a break point at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .middle, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+  
+  .quicklinks {
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: medium;
+  }
+  .quicklinks:hover {
+    color: #ffb600 !important;
+  }
+  .copyright{
+    background-color: darkgreen;
+    margin-top: 5px;
+    padding: 20px;
+    float: left;
+    width: 100%; /* The width is 20%, by default */
+    color: white;
+    bottom: 0; 
+    text-align: center;
+  }

@@ -1,0 +1,54 @@
+ .main {
+     width: 100%;
+     height: 420px;
+ }
+
+ .info {
+     background-color: white;
+     padding: 25px;
+     float: left;
+     width: 60%;
+     /* The width is 60%, by default */
+ }
+
+ .info p {
+     /* style={{ textAlign: 'justify', overflow: 'hidden' }} */
+     text-align: justify;
+     overflow: hidden;
+ }
+
+ .news {
+     background-color: darkgreen;
+     opacity: 0.8;
+     color: white;
+     padding: 20px;
+     float: left;
+     width: 40%;
+     /* The width is 20%, by default */
+     height: 400px;
+     margin-bottom: 5px;
+ }
+
+ .news p {
+     /* style={{ textAlign: 'justify', overflow: 'hidden' }} */
+     text-align: justify;
+     overflow: hidden;
+ }
+
+ /* Use a media query to add a break point at 800px: */
+ @media screen and (max-width: 800px) {
+     .info, .news {
+         width: 100%;
+         /* The width is 100%, when the viewport is 800px or smaller */
+     }
+ }
+
+ li{
+     padding: 10px;
+ }
+ 
+  :root {
+    --animate-duration: 5s;
+    --animate-delay: 5s;
+  }
+  

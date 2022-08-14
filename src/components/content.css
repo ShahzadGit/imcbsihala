@@ -1,0 +1,23 @@
+.info-news{
+    background-color: lightgreen;
+    width: 100%;
+    height: 450px;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.college-info{
+    background-color: lightyellow;
+    width: 60%;
+    height: 90%;
+    float: left;
+}
+.news{
+    background-color: lightblue;
+    width: 40%;
+    height: 90%;
+    float: left;
+}

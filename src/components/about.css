@@ -1,0 +1,22 @@
+.two {
+    padding: 25px;
+    width: 100%;
+    
+}
+
+.three {
+    background-color: darkgreen;
+    opacity: 0.8;
+    padding: 25px;
+    /* float: left; */
+    width: 100%;
+    color: white;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .left, .middle, .right {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}

@@ -1,0 +1,40 @@
+
+.profile{
+    padding: 25px;
+    background-color: darkgreen;
+    opacity: 0.8;
+    color: white;
+    float: left;
+    text-align: center;
+    width: 30%;
+    height: 353px;
+}
+
+.profile img{
+    border-radius: 120px;
+    width: 230px;
+    height: 230px;
+    align-self: center;
+}
+
+.message{
+    padding: 25px 25px 0px 0px;
+    background-color: darkgreen;
+    opacity: 0.8;
+    color: white;
+    float: left;
+    width: 70%;
+    /* The width is 70%, by default */
+    text-align: justify;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 800px) {
+    .profile, .message {
+        width: 100%;
+        padding: 20px;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
