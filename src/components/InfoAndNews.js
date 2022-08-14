@@ -1,4 +1,5 @@
 import './infonews.css'
+import admForm from './../pdf/AdmissionForm2022.pdf';
 
 function InfoNews() {
   return (
@@ -16,7 +17,7 @@ function InfoNews() {
           took over this institution from the Govt. of Punjab. In 1979 it was upgraded as higher Secondary School.
           After getting bifurcated from F.G. High School Sihala (Presently IMCB Sihala) the college was upgraded
           as Degree College in 2009. The new campus comprises of 16 class rooms 06 Laboratories for science
-    students and a beautiful computer lab, fully equipped with 16 latest computers.</p>
+          students and a beautiful computer lab, fully equipped with 16 latest computers.</p>
       </div>
 
       <div className="news">
@@ -25,7 +26,7 @@ function InfoNews() {
 
         <div >
           <ul >
-            <li className="animate__animated animate__bounce">Admissions are Open...</li>
+            <li className="animate__animated animate__bounce">Admissions are Open...<a href={admForm} download="Admission-Form.pdf">Click Here to Download Form</a></li>
             <li className="animate__animated animate__pulse">Tree Plantation Drive</li>
             <li className="animate__animated animate__flash">Independance Day</li>
           </ul>

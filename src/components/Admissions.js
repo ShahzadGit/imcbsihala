@@ -70,7 +70,7 @@ export default function Admissions() {
 
             <div className="four">
                 <h5>ADMISSION PROCEDURE</h5>
-                <p>Application forms along with the prospectus will be available in the college office. OR <a href={admForm} download="Admission Form.pdf">Click Here to Download</a></p>
+                <p>Application forms along with the prospectus will be available in the college office. OR <a href={admForm} download="Admission-Form.pdf">Click Here to Download</a></p>
                 <p>The Admission form duly filled-in- and complete in all respects is to be submitted to the college office.
                 On submission of the form, the college shall furnish a receipt. </p>
                 <p>A list of the students selected for admission shall be displayed on the Notice Board. The selected students

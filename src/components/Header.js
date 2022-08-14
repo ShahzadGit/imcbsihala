@@ -1,5 +1,6 @@
 import './header.css'
 import logo from './../images/webBanner.png'
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -11,10 +12,13 @@ function Header() {
                         <div className="logo-area">
                             <div className="row align-items-center">
                                 <div className="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
-                                    <a className="d-block" href="index.html">
+                                <Link className='nav-brand' to="/">
+                                    <img loading="lazy" src={logo} alt="IMCB Sihala" />
+                                </Link>
+                                    {/* <a className="d-block" href="/">
                                         <img loading="lazy" src={logo} alt="IMCB Sihala" />
 
-                                    </a>
+                                    </a> */}
                                     {/* <h2>IMCB (Degree), Sihala, Islamabad</h2> */}
                                 </div>{/* logo end */}
                                 <div className="col-lg-9 header-right">
