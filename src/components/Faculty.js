@@ -353,7 +353,7 @@ export default function Faculty() {
                                 <Card style={{ width: '60%', margin: '0 auto' }}>
                                     <Card.Img variant="top" src={zahoor} />
                                     <Card.Body>
-                                        <Card.Title>Prpf. Zahoor Ahmed</Card.Title>
+                                        <Card.Title>Prof. Zahoor Ahmad</Card.Title>
                                         <Card.Text>
                                             Principal<br/>Associate Professor    
                                         </Card.Text>
